@@ -1,0 +1,21 @@
+.budget-card__row-wrapper {
+  margin-bottom: 5px;
+}
+
+.budget-card__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.budget-card__label {
+  font-weight: bold;
+}
+
+.budget-card__balance {
+  font-weight: 700;
+  font-size: large;
+}
+
+.card-wrapper {
+  margin: 20px 15px 20px 20px !important;
+}

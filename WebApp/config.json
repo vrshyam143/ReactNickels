@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es5"
+  },
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ],
+
+  "ConnectionStrings": {
+    "NDDBConnectionString": "Server=NickelsDimesDB.database.windows.net;user id=adlogin;password=dimes#&nickels$19;Database=NickelsAndDimesDB;MultipleActiveResultSets=true;"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning"
+    }
+  },
+  "Token": {
+    "Key": "",
+    "Issuer": "",
+    "Audience": "",
+    "expiryDays": ""
+  },
+  "App": {
+    "Version": "1.0.0"
+  }
+}
